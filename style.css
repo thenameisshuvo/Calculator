@@ -15,15 +15,7 @@ body {
     text-align: center;
 }
 
-.calculator {
-    border-radius: 12px;
-    box-shadow: 0 0 40px 0px rgba(0, 0, 0, 0.15);
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 2em;
-    max-width: 15em;
-    overflow: hidden;
-}
+
 
 .calculator__display {
     background-color: #222222;
@@ -69,4 +61,12 @@ body {
     background-image: linear-gradient(to bottom, #fe886a, #ff7033);
     grid-column: -2;
     grid-row: 2 / span 4;
+}
+
+.calculator {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 12px;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
 }
