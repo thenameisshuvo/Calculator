@@ -111,3 +111,13 @@ body {
     border-radius: 12px 12px 0 0;
 }
 
+.calculator {
+    height: 20em; 
+    padding: 1.5em; 
+}
+
+.calculator__display {
+    font-size: 2em; 
+    padding: 1em 0.75em; 
+    height: 2.5em; 
+}
