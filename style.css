@@ -100,3 +100,14 @@ body {
 .calculator__display {
     font-family: 'Roboto Mono', monospace;
 }
+.calculator__display {
+    transition: all 0.3s ease-in-out;
+}
+
+.calculator__keys>* {
+    border-radius: 8px;
+}
+.calculator__display {
+    border-radius: 12px 12px 0 0;
+}
+
