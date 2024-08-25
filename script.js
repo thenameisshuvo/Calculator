@@ -134,4 +134,7 @@ keys.addEventListener('click', (e) => {
     display.textContent = resultString;
     updateCalculatorState(key, calculator, resultString, displayedNum);
     updateVisualState(key, calculator);
+
+
+    
 });

@@ -148,3 +148,20 @@ body {
         background-position: 0% 50%;
     }
 }
+
+.developer-credit:hover {
+    color: #000;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.developer-credit {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-size: 0.85em;
+    color: #666;
+    font-style: italic;
+    z-index: 1000; 
+}
+
+
